@@ -54,9 +54,35 @@
         android:layout_margin="8dp"
         android:layout_weight="1"/>
 
+<<<<<<< Updated upstream
     <!-- Поле ввода для 'b' -->
     <EditText
         android:id="@+id/editTextB"
+=======
+        <!-- Текст с фамилией и номером варианта -->
+        <TextView
+            android:id="@+id/textViewHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Русак Никита 68МС Вариант 1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Изображение с формулой -->
+        <ImageView
+            android:id="@+id/imageViewFormula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fromula"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <!-- Правая часть: Рисунок и ввод данных -->
+    <LinearLayout
+>>>>>>> Stashed changes
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="b"
@@ -67,6 +93,7 @@
         android:layout_margin="8dp"
         android:layout_weight="1"/>
 
+<<<<<<< Updated upstream
     <!-- Поле ввода для 'α' -->
     <EditText
         android:id="@+id/editTextAlpha"
@@ -79,6 +106,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="8dp"
         android:layout_weight="1"/>
+=======
+        <!-- Изображение с рисунком -->
+        <ImageView
+            android:id="@+id/imageViewDrawing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yes"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+>>>>>>> Stashed changes
 
     <!-- Кнопка для расчёта -->
     <Button
