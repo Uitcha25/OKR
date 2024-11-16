@@ -20,7 +20,7 @@
             android:id="@+id/textViewHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Иванов Иван 47МС Вариант 1"
+            android:text="Русак Никита 68МС Вариант 1"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
@@ -31,7 +31,7 @@
             android:id="@+id/imageViewFormula"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/Fromula"
+            android:src="@drawable/fromula"
             android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
@@ -48,7 +48,7 @@
             android:id="@+id/imageViewDrawing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/Yes"
+            android:src="@drawable/yes"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp" />
 
